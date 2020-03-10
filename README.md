@@ -5,3 +5,5 @@ Author
 ======
 [Maxim Bakaleynikov](https://github.com/mbakaleynikov/web_collage/commits?author=mbakaleynikov):art: :computer:
 ===============================================================================================================
+
+[original project link](https://i6.cims.nyu.edu/~mb6376/dotw/collage/index.html)
