@@ -1,12 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  /* background: black; */
+  background-image: url(media/tv.gif);
 }
 
 #container {
-  background-color:purple;
-  background-image: url(media/synth.jpg);
+  background-image: url(media/synth.jpg); opacity:0.6;
   background-size: cover;
   position: fixed;
   top: 0;
@@ -20,24 +20,21 @@ body {
   grid-template-rows: repeat(10, 10%);
 }
 
+.car {
+  grid-column-start: 6;
+  grid-column-end: 16;
 
-
-.apartment {
-  grid-column-start: 4;
-  grid-column-end: 18;
-
-  grid-row-start: 4;
+  grid-row-start: 1;
   grid-row-end: 11;
 
   height: 100%;
   bottom:0;
   width: 100%;
-  mix-blend-mode: difference;
+  mix-blend-mode:lighten;
+  opacity: 0.6;
 }
 
-.spacevid{
- 
-    mix-blend-mode: lighten;
+/* .pyramid{
     position: absolute;
     top: 0;
     left: 0;
@@ -45,18 +42,13 @@ body {
     min-width: 100%;
     width: auto;
     height: auto;
-    opacity: 0.5;
-    
-  
-}
+    mix-blend-mode:lighten;
 
-.apartment:hover {
-  mix-blend-mode: color-dodge;
-}
+} */
 
 audio {
   position: fixed;
   top: 0;
   align-self: center;
+  opacity:0.3;
 }
-
